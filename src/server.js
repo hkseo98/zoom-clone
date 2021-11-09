@@ -20,7 +20,7 @@ app.get("/*", (req, res) => res.redirect("/"));
 // http 서버와 ws 서버를 둘다 돌리는 방법
 const httpServer = createServer(app);
 
-// http://localhost:3000/admin으로 접속하면 됨!
+// http://localhost:3000/admin으로 접속하면 된다.
 const wsServer = new Server(httpServer, {
   cors: {
     origin: ["https://admin.socket.io"],
