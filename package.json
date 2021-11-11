@@ -13,6 +13,7 @@
     "@babel/core": "7.16.0",
     "@babel/node": "7.16.0",
     "@babel/preset-env": "7.16.0",
+    "localtunnel": "2.0.2",
     "nodemon": "2.0.14"
   },
   "dependencies": {
